@@ -1,0 +1,15 @@
+# Site settings
+title: Elem Shalit
+email: elem@elemshalit.com
+description: "Web developer /// Web engineer"
+
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+port: 3000
+
+sass:
+  sass_dir: assets/css
+  style: :compressed
