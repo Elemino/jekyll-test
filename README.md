@@ -1,4 +1,4 @@
-# A Hero Element Focused Jekyll Template
+# A Hero Element Frontal Jekyll Template
  
  
  
