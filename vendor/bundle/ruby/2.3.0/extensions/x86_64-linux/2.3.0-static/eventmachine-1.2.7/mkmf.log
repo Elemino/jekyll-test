@@ -1,0 +1,11 @@
+"gcc -o conftest -I/home/user/.rbenv/versions/2.3.1/include/ruby-2.3.0/x86_64-linux -I/home/user/.rbenv/versions/2.3.1/include/ruby-2.3.0/ruby/backward -I/home/user/.rbenv/versions/2.3.1/include/ruby-2.3.0 -I. -I/home/user/.rbenv/versions/2.3.1/include     -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration -Wdeprecated-declarations -Wno-packed-bitfield-compat -Wno-maybe-uninitialized conftest.c  -L. -L/home/user/.rbenv/versions/2.3.1/lib -Wl,-R/home/user/.rbenv/versions/2.3.1/lib -L. -L/home/user/.rbenv/versions/2.3.1/lib  -fstack-protector -rdynamic -Wl,-export-dynamic     -Wl,-R/home/user/.rbenv/versions/2.3.1/lib -L/home/user/.rbenv/versions/2.3.1/lib -lruby-static  -lpthread -ldl -lcrypt -lm   -lc"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main(int argc, char **argv)
+4: {
+5:   return 0;
+6: }
+/* end */
+
